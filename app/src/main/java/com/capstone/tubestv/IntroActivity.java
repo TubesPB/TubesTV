@@ -24,7 +24,7 @@ public class IntroActivity extends AppIntro {
         super.onCreate(savedInstanceState);
         addSlide(AppIntroFragment.newInstance(
                 "Welcome To TUBES TV",
-                " created by Shanaz&Tiara",
+                " created by Shanaz & Tiara",
                 R.drawable.intro1,
                 Color.WHITE,
                 this.getResources().getColor(R.color.blue),
@@ -40,7 +40,7 @@ public class IntroActivity extends AppIntro {
         ));
         addSlide(AppIntroFragment.newInstance(
                 "TUBES TV",
-                "Informasi Mengenai TV Series terpopular",
+                "",
                 R.drawable.intro3,
                 Color.WHITE,
                 this.getResources().getColor(R.color.blue),

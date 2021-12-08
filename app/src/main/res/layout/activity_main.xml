@@ -30,7 +30,7 @@
                 android:layout_marginStart="10dp"
                 android:drawableStart="@drawable/ic_dtl_time"
                 android:drawablePadding="15dp"
-                android:drawableTint="@color/white"
+                android:drawableTint="@color/black"
                 android:gravity="center"
                 android:textColor="@android:color/white"
                 android:textSize="15sp" />
