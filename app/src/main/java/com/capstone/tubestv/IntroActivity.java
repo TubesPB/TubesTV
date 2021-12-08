@@ -38,6 +38,14 @@ public class IntroActivity extends AppIntro {
                 this.getResources().getColor(R.color.blue),
                 this.getResources().getColor(R.color.blue)
         ));
+        addSlide(AppIntroFragment.newInstance(
+                "TUBES TV",
+                "Informasi Mengenai TV Series terpopular",
+                R.drawable.intro3,
+                Color.WHITE,
+                this.getResources().getColor(R.color.blue),
+                this.getResources().getColor(R.color.blue)
+        ));
         setNextArrowColor(this.getResources().getColor(R.color.blue));
         setColorDoneText(this.getResources().getColor(R.color.blue));
         setColorSkipButton(this.getResources().getColor(R.color.blue));

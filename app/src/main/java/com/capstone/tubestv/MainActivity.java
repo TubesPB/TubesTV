@@ -234,28 +234,7 @@ public class MainActivity extends AppCompatActivity {
         return have_WIFI || have_MobileData;
     }
 
-    public void createNotificationChannel() {
-        // Create a notification manager object.
-        mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 
-        // Notification channels are only available in OREO and higher.
-        // So, add a check on SDK version.
-        if (android.os.Build.VERSION.SDK_INT >=
-                android.os.Build.VERSION_CODES.O) {
-
-            // Create the NotificationChannel with all the parameters.
-            NotificationChannel notificationChannel = new NotificationChannel
-                    (PRIMARY_CHANNEL_ID,
-                            "Reminder notification",
-                            NotificationManager.IMPORTANCE_HIGH);
-
-            notificationChannel.enableLights(true);
-            notificationChannel.setLightColor(Color.RED);
-            notificationChannel.enableVibration(true);
-            notificationChannel.setDescription("Notifies every 1 day");
-            mNotificationManager.createNotificationChannel(notificationChannel);
-        }
-    }
 
 
 
